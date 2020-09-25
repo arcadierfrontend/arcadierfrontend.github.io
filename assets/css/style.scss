@@ -1,0 +1,64 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  font-family: "Open Sans",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+a, a:active, a:focus, a:hover {
+    color: #ef5b25;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: auto;
+}
+
+header {
+//   border: 1px solid #ccc!important;
+//   border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  width: auto;
+  height: 100%;
+}
+
+section {
+  width: 63%;
+}
+
+footer {
+  //display: none;
+  bottom: 0px;
+}
+
+.custom_header {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+.logo_arc{
+    float: left;
+}
+
+.logo_arc img {
+    width: 30px;
+    height: 30px;
+}
